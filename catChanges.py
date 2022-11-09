@@ -86,7 +86,7 @@ print('Message as Binary ', message_as_binary)
 pixels_needed_count = len(message_as_binary)
 print('Gonna need ', pixels_needed_count)
 
-cat_image = cv.imread('Photos/cat.jpg')
+cat_image = cv.imread('cat.jpg')
 cat_image_arr = np.array(cat_image)
 
 red_pixels_values = get_red_pixels_values_as_binary()
